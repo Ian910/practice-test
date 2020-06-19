@@ -4,27 +4,27 @@ using namespace std;
 int main()
 {
 	int number;
-	cout << "½Ğ¿é¤J¤µ¦~¦¬¤J²bÃB:";
+	cout << "è«‹è¼¸å…¥ä»Šå¹´æ”¶å…¥æ·¨é¡:";
 	cin >> number;
 	if (number >= 2000000)
 	{
-		cout << "¥Iµ|ª÷ÃB" << (0.3 * number) << "¤¸";
+		cout << "ä»˜ç¨…é‡‘é¡" << (0.3 * number) << "å…ƒ";
 	}
 	else if (number >= 1000000 && number < 2000000)
 	{
-		cout << "¥Iµ|ª÷ÃB" << (0.21 * number) << "¤¸";
+		cout << "ä»˜ç¨…é‡‘é¡" << (0.21 * number) << "å…ƒ";
 	}
 	else if (number >= 600000 && number < 1000000)
 	{
-		cout << "¥Iµ|ª÷ÃB" << (0.13 * number) << "¤¸";
+		cout << "ä»˜ç¨…é‡‘é¡" << (0.13 * number) << "å…ƒ";
 	}
 	else if (number >= 300000 && number < 600000)
 	{
-		cout << "¥Iµ|ª÷ÃB" << (0.06 * number) << "¤¸";
+		cout << "ä»˜ç¨…é‡‘é¡" << (0.06 * number) << "å…ƒ";
 	}
 	else
 	{
-		cout << "¥Iµ|ª÷ÃB:0¤¸";
+		cout << "ä»˜ç¨…é‡‘é¡:0å…ƒ";
 	} 
 
 
