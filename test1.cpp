@@ -6,17 +6,11 @@ int main()
 	string A;
 	for (int i = 1; i <=3; i++)
 	{
-		cout << "\n½Ð¿é¤J²Ä" << i << "¦ì³ø¦WªÌªº¶O¥Î";
+		cout << "\nè«‹è¼¸å…¥ç¬¬" << i << "ä½å ±åè€…çš„è²»ç”¨";
 		cin >> A;
-		cout << "\n©m¦W\t½s¸¹\t¶O¥Î\n";
+		cout << "\nå§“å\tç·¨è™Ÿ\tè²»ç”¨\n";
 		cout <<"\n"<< A << "\t" << i << "\t"<< 19900 + 100 * i<<endl;
 	}
-	
-	
-
-
-
-
 	system("pause");
 	return 0;
 }
