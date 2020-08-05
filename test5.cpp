@@ -4,29 +4,24 @@ using namespace std;
 int main()
 {
 	char ch;
-	cout << "½Ð¿é¤J¤@­Ó¦r¤¸:";
+	cout << "è«‹è¼¸å…¥ä¸€å€‹å­—å…ƒ:";
 	cin >> ch;
 	if (ch>='0'&&ch<='9')
 	{
-		cout << "¿é¤Jªº¬O¼Æ¦r!\n";
+		cout << "è¼¸å…¥çš„æ˜¯æ•¸å­—!\n";
 	}
 	else if (ch>='A' && ch<='Z')
 	{
-		cout << "¿é¤Jªº¬O¤j¼g¦r¥À!\n";
+		cout << "è¼¸å…¥çš„æ˜¯å¤§å¯«å­—æ¯!\n";
 	}
 	else if (ch>='a'&&ch<='z')
 	{
-		cout << "¿é¤Jªº¬O¤p¼g¦r¥À!\n";
+		cout << "è¼¸å…¥çš„æ˜¯å°å¯«å­—æ¯!\n";
 	}
 	else
 	{
-		cout<<"¿é¤Jªº¤£¬O¼Æ¦r©Î¦r¥À!";
+		cout<<"è¼¸å…¥çš„ä¸æ˜¯æ•¸å­—æˆ–å­—æ¯!";
 	}
-
-
-
-
-
 	system("pause");
 	return 0;
 }
